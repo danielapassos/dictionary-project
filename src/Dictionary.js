@@ -9,7 +9,7 @@ export default function Dictionary() {
     let [results, setResults]=useState(null);
 
     function handleResponse(response){
-        setResults(response.data[0].meanings[0].definitions[0].definition);
+        setResults(response.data[0]);
     }
 
     function search(event){
@@ -24,6 +24,7 @@ export default function Dictionary() {
     function handleKeywordChange(event){
         setKeyword(event.target.value)
     }
+    
     return (
     <div className="Dictionary">
         <form onSubmit={search}>
