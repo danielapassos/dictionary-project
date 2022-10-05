@@ -1,5 +1,5 @@
 body {
-  background-color: #E8FFFF;
+  background-color: #fef0fa;
 }
 
 a{
@@ -12,7 +12,7 @@ a:hover{
 }
 
 .App {
-  text-align: center;
+  text-align: left;
   margin: 35px;
 }
 
