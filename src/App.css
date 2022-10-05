@@ -1,5 +1,14 @@
 body {
-  background-color: white;
+  background-color: #E8FFFF;
+}
+
+a{
+  font-style: bold;
+  color: #6F6F6F;
+}
+
+a:hover{
+  color: #C13CD8;
 }
 
 .App {
